@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+
+  tweet_collector:
+    build: tweets/
+    volumes:
+      - ./tweets/:/app
+    depends_on:
+      - mongodb
+  
+  etl_job:
+    build: etl_job/
+    volumes:
+      - ./etl_job/:/app
+    depends_on:
+      - mongodb
+      - postgresdb
+      
+  postgresdb:
+    image: postgres
+    ports:
+      - 5555:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=********
+      - POSTGRES_DB=tweets_db
+  
