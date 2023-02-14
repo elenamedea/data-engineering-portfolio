@@ -17,7 +17,7 @@ The database was created from .csv files with PostgreSQL and hosted in a cloud d
 </p>
 
 <br>
-### [Entity-relationship diagram](https://github.com/orosz-attila/Spiced-Academy-Data-Science-Projects/blob/master/05_dashboard/image/er_diagram_northwind.png) with DbSchema.  
+Entity-Relationship Diagram with DbSchema.  
 
 <p align="center">
   <img src="https://github.com/elenamedea/data-engineering-portfolio/blob/main/Dashboard_project/er_diagram_northwind.png"/>
