@@ -6,10 +6,9 @@
  
 The database was created from .csv files with PostgreSQL and hosted in a cloud database (AWS RDS). The dashboard was created with Metabase that was installed on a virtual server (AWS RC2) and connected to the cloud database.</div><br>
 
-<div align="justify">(Due to costs, both the AWS database and the virtual server has been deleted, therefore the dashboard is not available online anymore.)</div><br> 
+<div align="justify">Due to costs, both the AWS database and the virtual server has been deleted, therefore the dashboard is not available online anymore.</div><br> 
 
 <div align="justify">These are some static screenshots of the dashboard:</div><br> 
-
 
 <p align="center">
   <img src="https://github.com/elenamedea/data-engineering-portfolio/blob/main/Dashboard_project/northwind_1.png"/>
@@ -18,9 +17,7 @@ The database was created from .csv files with PostgreSQL and hosted in a cloud d
 </p>
 
 <br>
-
 ### [Entity-relationship diagram](https://github.com/orosz-attila/Spiced-Academy-Data-Science-Projects/blob/master/05_dashboard/image/er_diagram_northwind.png) with DbSchema.  
-
 
 <p align="center">
   <img src="https://github.com/elenamedea/data-engineering-portfolio/blob/main/Dashboard_project/er_diagram_northwind.png"/>
