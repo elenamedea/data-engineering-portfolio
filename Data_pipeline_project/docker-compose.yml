@@ -27,7 +27,13 @@ services:
     ports:
       - 5555:5432
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=********
-      - POSTGRES_DB=tweets_db
+      - POSTGRES_USER = postgres
+      - POSTGRES_PASSWORD = *****
+      - POSTGRES_DB = tweets_db
   
+  slack_bot:
+    build: slack_bot/
+    volumes:
+    - ./slack_bot/:/app
+    depends_on:
+    - postgresdb
