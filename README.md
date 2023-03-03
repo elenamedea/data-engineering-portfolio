@@ -33,3 +33,4 @@ Entity-Relationship Diagram with DbSchema.
 
 
 <div align="justify">The goal of current Data Engineering project is to build a Dockerized Data Pipeline which analyzes the Sentiment of Tweets. Firstly, using Tweepy API, tweets of a selected topic are collected and stored in a MongoDB database. Subsequently, the Sentiment of Tweets is analyzed and the tweets together with their scores are stored in a Postgres database. Finally, the processed tweets are sent periodically from Postgres database to a slack channel. </div><br>
+
