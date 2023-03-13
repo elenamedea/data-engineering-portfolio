@@ -40,7 +40,7 @@ Entity-Relationship Diagram with DbSchema.
 This is a Natural Language Processing project on Sentiment Analysis using RoBERTa model to predict the emotion (positive, negative or neutral) of tweets regarding the keyword 'Balenciaga'. This term was choosen in order to investigate the crisis that engulfed the designer brand in late November 2022 after backlash to an ad campaign featuring S&M-inspired products alongside children boiled over, resulting in social media outrage, cable news takedowns, vandalism and protests at stores. 
 
 <p align="center">
-  <img src="https://github.com/elenamedea/data-engineering-portfolio/blob/main/Twitter_Sentiment_Analysis_project/balencigaga_crisis.png"/>
+  <img src="https://github.com/elenamedea/data-engineering-portfolio/blob/main/Twitter_Sentiment_Analysis_project/balenciaga_crisis.png"/>
 </p>
 
 The twitter footprint of such a scandal can give us insight on the society reflexes towards controversies  as well as business analytics on damage control.
