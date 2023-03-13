@@ -37,9 +37,7 @@ Entity-Relationship Diagram with DbSchema.
 
 ## Twitter Sentiment Analysis Project
 
-This is a Natural Language Processing project on Sentiment Analysis using RoBERTa model to predict the emotion (positive, negative or neutral) of tweets regarding the keyword 'Balenciaga'. 
-
-This term was choosen in order to investigate the crisis that engulfed the designer brand in late November 2022 after backlash to an ad campaign featuring S&M-inspired products alongside children boiled over, resulting in social media outrage, cable news takedowns, vandalism and protests at stores. 
+This is a Natural Language Processing project on Sentiment Analysis using RoBERTa model to predict the emotion (positive, negative or neutral) of tweets regarding the keyword 'Balenciaga'. This term was choosen in order to investigate the crisis that engulfed the designer brand in late November 2022 after backlash to an ad campaign featuring S&M-inspired products alongside children boiled over, resulting in social media outrage, cable news takedowns, vandalism and protests at stores. 
 
 <p align="center">
   <img src="https://github.com/elenamedea/data-engineering-portfolio/blob/main/Twitter_Sentiment_Analysis_project/balencigaga_crisis.png"/>
@@ -47,13 +45,7 @@ This term was choosen in order to investigate the crisis that engulfed the desig
 
 The twitter footprint of such a scandal can give us insight on the society reflexes towards controversies  as well as business analytics on damage control.
 
-Tweets were scraped with snscrape library, which, unlike Tweepy, doesn't require use of API keys and allows one to scrape historical data. 
-
-In the first version of the notebook, a total of 1000 tweets were collected from 01.12.2022 to 02.12.2022. The data were stored in an Elasticsearch index.
-
-Subsequently, they were quered in order to be cleaned and preprocessed before they were sent for an ETL job, where RoBERTa model was utilized.
-
-The resulted processed tweets and sentiment analysis results went through a preliminary Exploratory Data Analysis (EDA) and were stored to another Elasticsearch index.
+Tweets were scraped with snscrape library, which, unlike Tweepy, doesn't require use of API keys and allows one to scrape historical data. In the first version of the notebook, a total of 1000 tweets were collected from 01.12.2022 to 02.12.2022. The data were stored in an Elasticsearch index. Subsequently, they were quered in order to be cleaned and preprocessed before they were sent for an ETL job, where RoBERTa model was utilized. The resulted processed tweets and sentiment analysis results went through a preliminary Exploratory Data Analysis (EDA) and were stored to another Elasticsearch index.
 
 ### To Do:
 - Utilize emojis instead of excluding them from the Sentiment Analysis
